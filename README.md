@@ -38,8 +38,10 @@ const quill = new Quill(editor, {
 
 See [DefaultOptions](./src/DefaultOptions.ts) for available options.
 
-## Acknoledgements
+## License
 
 MIT License
 
-- Image Resizing based on [Quill Image Resize Module](https://github.com/kensnyder/quill-image-resize-module)
+## Acknowledgements
+
+Based on [Quill Image Resize Module](https://github.com/kensnyder/quill-image-resize-module)
