@@ -47,7 +47,8 @@
   "scripts": {
     "build": "tsc && vite build",
     "dev": "vite demo",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "release": "release-it"
   },
   "dependencies": {
     "lodash": "^4.17.21"
