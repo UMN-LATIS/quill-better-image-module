@@ -1,6 +1,6 @@
 # Quill Better Image Module
 
-<!-- This adds some enhancements to the [Quill](https://quilljs.com/) editor images: -->
+This adds some enhancements to the [Quill](https://quilljs.com/) editor images:
 
 - Image Resizing
 - Editing Alt Text
