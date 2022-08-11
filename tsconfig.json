@@ -17,7 +17,8 @@
     "skipLibCheck": true,
     "jsx": "preserve",
     "noImplicitAny": false,
-    "allowJs": true
+    "allowJs": true,
+    "types": ["node"]
   },
   "include": ["src"]
 }
