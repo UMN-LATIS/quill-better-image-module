@@ -1,7 +1,7 @@
 import Quill from "quill";
-import IconAlignLeft from "quill/assets/icons/align-left.svg";
-import IconAlignCenter from "quill/assets/icons/align-center.svg";
-import IconAlignRight from "quill/assets/icons/align-right.svg";
+import IconAlignLeft from "quill/assets/icons/align-left.svg?raw";
+import IconAlignCenter from "quill/assets/icons/align-center.svg?raw";
+import IconAlignRight from "quill/assets/icons/align-right.svg?raw";
 import { BaseModule } from "./BaseModule";
 
 const Parchment = Quill.imports.parchment;
