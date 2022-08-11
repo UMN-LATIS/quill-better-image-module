@@ -56,14 +56,7 @@ const defaultOptions: ModuleOptions = {
     stroke: "#444",
     strokeWidth: "2",
   },
-  altTextStyles: {
-    position: "absolute",
-    bottom: "0",
-    left: "0",
-    background: "rgba(255, 255, 255, 0.8)",
-    width: "100%",
-    padding: "0.5rem",
-  },
+  altTextStyles: {},
 };
 
 export default defaultOptions;
