@@ -21,12 +21,6 @@ export class Toolbar extends BaseModule {
     this._addToolbarButtons();
   };
 
-  // The toolbar and its children will be destroyed when the overlay is removed
-  //   onDestroy = () => {};
-
-  // Nothing to update on drag because we are are positioned relative to the overlay
-  //   onUpdate = () => {};
-
   _defineAlignments = () => {
     this.alignments = [
       {

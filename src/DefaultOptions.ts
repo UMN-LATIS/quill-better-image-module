@@ -1,7 +1,7 @@
 import type { ModuleOptions } from "./types";
 
 const defaultOptions: ModuleOptions = {
-  modules: ["DisplaySize", "Toolbar", "Resize", "AltText"],
+  modules: ["DisplaySize", "Resize", "AltText"],
   overlayStyles: {
     position: "absolute",
     boxSizing: "border-box",
