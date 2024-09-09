@@ -38,6 +38,13 @@ export default class BetterImage {
     // respond to clicks inside the editor
     this.quill.root.addEventListener("click", this.handleClick, false);
 
+    // when clicking outside the editor, close the overlay
+    document.body.addEventListener("click", (event) => {
+      if (!this.quill.root.parentNode.contains(event.target)) {
+        this.hide();
+      }
+    });
+
     this.quill.root.parentNode.style.position =
       this.quill.root.parentNode.style.position || "relative";
 
