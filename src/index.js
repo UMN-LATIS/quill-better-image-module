@@ -39,7 +39,7 @@ export default class BetterImage {
     this.quill.root.addEventListener("click", this.handleClick, false);
 
     // when clicking outside the editor, close the overlay
-    document.body.addEventListener("click", (event) => {
+    quill.emitter.listenDOM("click", document.body, (event) => {
       if (!this.quill.root.parentNode.contains(event.target)) {
         this.hide();
       }
