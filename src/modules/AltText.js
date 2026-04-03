@@ -13,7 +13,7 @@ export class AltText extends BaseModule {
       <style>
           ${AltTextCSS}
       </style>
-      <button aria-label="Toggle alt text editor" class="ql-alt-text__button">
+      <button type="button" aria-label="Toggle alt text editor" class="ql-alt-text__button">
         <i class="icon" aria-hidden="true" focusable="false">
           ${UniversalAccessIcon}
         </i>
@@ -30,7 +30,7 @@ export class AltText extends BaseModule {
 
     // toggle the alt text editor when the button is clicked
     const toggleEditorButton = this.altText.querySelector(
-      ".ql-alt-text__button"
+      ".ql-alt-text__button",
     );
     toggleEditorButton.addEventListener("click", () => {
       this.altText.classList.toggle("ql-alt-text--is-open");
